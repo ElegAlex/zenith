@@ -3,12 +3,11 @@
           "version": "0.1.0",
           "private": true,
           "dependencies": {
-            "react": "^18.2.0",  // Assurez-vous que les versions correspondent à votre environnement
+            "react": "^18.2.0",  
             "react-dom": "^18.2.0"
-            // "tailwindcss": "^3.x.x" // Si vous l'installez comme dépendance de dev
           },
           "scripts": {
-            "start": "react-scripts start", // Ou la commande de Vite si vous utilisez Vite
+            "start": "react-scripts start", 
             "build": "react-scripts build",
             "test": "react-scripts test",
             "eject": "react-scripts eject"
@@ -32,7 +31,7 @@
             ]
           },
           "devDependencies": {
-            "tailwindcss": "^3.4.3" // Exemple si vous utilisez Tailwind CLI ou PostCSS
+            "tailwindcss": "^3.4.3" 
           }
         }
         
