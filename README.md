@@ -1,41 +1,31 @@
-        # Zenith Prompt MVP v1
+# Zenith Prompt MVP v1
 
-        Application de gestion de prompts pour IA génératives.
+Application de gestion de prompts pour IA génératives.
 
-        ## Prérequis
+## Prérequis
 
-        - Node.js (v16 ou supérieur recommandé)
-        - npm ou yarn
+- Node.js (v16 ou supérieur recommandé)
+- npm ou yarn
 
-        ## Installation
+## Installation
 
-        1. Clonez le dépôt :
-           ```bash
-           git clone <URL_DE_VOTRE_REPO_ZENITH>
-           cd zenith
-           ```
-        2. Installez les dépendances :
-           ```bash
-           npm install
-           ```
-           ou
-           ```bash
-           yarn install
-           ```
+Clonez le dépôt puis installez les dépendances :
 
-        ## Lancement en mode développement
+```bash
+git clone <URL_DE_VOTRE_REPO_ZENITH>
+cd zenith
+npm install # ou yarn install
+```
 
-        ```bash
-        npm start
-        ```
-        ou
-        ```bash
-        yarn start
-        ```
-        Ouvrez [http://localhost:3000](http://localhost:3000) pour voir l'application dans votre navigateur.
+## Lancement en mode développement
 
-        ## Technologies utilisées
+```bash
+npm start # ou yarn start
+```
 
-        - React
-        - Tailwind CSS
-        ```
+Ouvrez [http://localhost:3000](http://localhost:3000) pour voir l'application dans votre navigateur.
+
+## Technologies utilisées
+
+- React avec Create&nbsp;React&nbsp;App
+- Tailwind&nbsp;CSS pour la mise en forme
