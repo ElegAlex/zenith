@@ -1,4 +1,4 @@
-/* Importation des utilitaires Tailwind CSS */
+/* Importation locale de Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
