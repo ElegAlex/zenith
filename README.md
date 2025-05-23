@@ -49,9 +49,9 @@ npm run build:css
 
 compile `src/index.css` vers `public/tailwind.css` en mode veille pour vos modifications.
 
-## Instructions de tests à venir
+## Lancer les tests
 
-Des tests unitaires seront ajoutés avec React Testing Library. Une fois en place, ils pourront être lancés via :
+Une suite de tests unitaires est configurée avec React Testing Library. Pour exécuter l'ensemble des tests, utilisez la commande suivante :
 
 ```bash
 npm test
