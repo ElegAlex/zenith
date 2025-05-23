@@ -13,13 +13,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{js,css,jsx}\"",
-    "build:css": "tailwindcss -i ./src/index.css -o ./public/tailwind.css --watch"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "build:css": "tailwindcss -i ./src/index.css -o ./public/tailwind.css --watch",
+    "lint": "eslint \"src/**/*.{js,jsx}\""
   },
   "browserslist": {
     "production": [
@@ -35,6 +30,8 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0"
   }
 }
