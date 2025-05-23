@@ -35,6 +35,8 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0"
   }
 }
